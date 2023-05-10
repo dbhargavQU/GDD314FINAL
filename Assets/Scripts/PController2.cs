@@ -5,7 +5,7 @@ using UnityEngine;
 public class PController2 : MonoBehaviour
 {
     private List<int> inputValues = new List<int>();
-    private int[] code = { 1, 2, 4, 3 };
+    private int[] code = { 2, 0, 0, 1 };
 
     [SerializeField] private GameObject objectToDisable;
 
