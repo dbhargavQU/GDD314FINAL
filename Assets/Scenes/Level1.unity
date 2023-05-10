@@ -2299,7 +2299,7 @@ PrefabInstance:
     - target: {fileID: 781265726, guid: e7330e0c79dd3b94a8a239bd3e1be533, type: 3}
       propertyPath: m_TargetTexture
       value: 
-      objectReference: {fileID: 8400000, guid: 3babc375759448345a515c75eced145b, type: 2}
+      objectReference: {fileID: 8400000, guid: ad7d68f17bdc0a041a7121cc463e1e28, type: 2}
     - target: {fileID: 2807619120428375229, guid: e7330e0c79dd3b94a8a239bd3e1be533, type: 3}
       propertyPath: m_Name
       value: CCTVFINAL
@@ -2404,7 +2404,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3975197688815210573, guid: 4874d637e3c124f4db6f00f4edf236c9, type: 3}
       propertyPath: m_text
-      value: "Clue: \nKeyCode is on the Computer Screen!"
+      value: "Clue: \nWhat time is it?(KEYCODE)"
       objectReference: {fileID: 0}
     - target: {fileID: 5418728300528801705, guid: 4874d637e3c124f4db6f00f4edf236c9, type: 3}
       propertyPath: m_Name
@@ -2413,6 +2413,10 @@ PrefabInstance:
     - target: {fileID: 5418728300528801705, guid: 4874d637e3c124f4db6f00f4edf236c9, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6841140002450503945, guid: 4874d637e3c124f4db6f00f4edf236c9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4874d637e3c124f4db6f00f4edf236c9, type: 3}
@@ -3110,7 +3114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 761c81b236ecf6e438ac93991bc4f9f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level2
+  sceneName: Level3
   finalSocket: {fileID: 251291198}
 --- !u!1 &1080177183
 GameObject:
